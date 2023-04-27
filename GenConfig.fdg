@@ -11,7 +11,7 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": false,
+        "EmberApp": true,
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
@@ -20,25 +20,25 @@
         "EmberMetadata": false
       },
       "ApacheCordova": {
-        "CordovaProject": true,
-        "BuildApp": true
+        "CordovaProject": false,
+        "BuildApp": false
       }
     },
     "Backend": {
-      "AspNet": false,
+      "AspNet": true,
       "AspNetCore": false,
-      "Java": true
+      "Java": false
     },
     "Docker": {
-      "Dockerfile": false,
-      "DockerfileAutobuild": true,
+      "Dockerfile": true,
+      "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
     },
     "Storage": {
       "Mssql": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
