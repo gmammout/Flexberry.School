@@ -38,7 +38,7 @@
     "Storage": {
       "Mssql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -54,7 +54,7 @@
       },
       "ClickHouse": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "ConnectionString": null
       },
       "Oracle": {
