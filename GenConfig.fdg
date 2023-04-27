@@ -37,19 +37,19 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
-        "FullSql": false,
-        "LiquibaseSql": false,
+        "DiffSql": true,
+        "FullSql": true,
+        "LiquibaseSql": true,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": true,
+        "DiffSql": false,
         "FullSql": true,
         "LiquibaseSql": true,
-        "Security": true,
-        "AdminUser": true,
+        "Security": false,
+        "AdminUser": false,
         "ConnectionString": null
       },
       "ClickHouse": {
