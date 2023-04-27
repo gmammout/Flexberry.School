@@ -11,7 +11,7 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": true,
+        "EmberApp": false,
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
@@ -20,14 +20,14 @@
         "EmberMetadata": false
       },
       "ApacheCordova": {
-        "CordovaProject": false,
-        "BuildApp": false
+        "CordovaProject": true,
+        "BuildApp": true
       }
     },
     "Backend": {
-      "AspNet": true,
+      "AspNet": false,
       "AspNetCore": false,
-      "Java": false
+      "Java": true
     },
     "Docker": {
       "Dockerfile": false,
@@ -54,7 +54,7 @@
       },
       "ClickHouse": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Oracle": {
@@ -76,7 +76,7 @@
       "Crp": false,
       "Json": false,
       "Jdl": false,
-      "PlantUML": false
+      "PlantUML": true
     }
   }
 }
